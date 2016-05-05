@@ -10,9 +10,7 @@
 		B5002CE51CDB3C9600DE38C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5002CE41CDB3C9600DE38C8 /* main.m */; };
 		B5002CE81CDB3C9600DE38C8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5002CE71CDB3C9600DE38C8 /* AppDelegate.m */; };
 		B5002CEB1CDB3C9600DE38C8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5002CEA1CDB3C9600DE38C8 /* ViewController.m */; };
-		B5002CEE1CDB3C9600DE38C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5002CEC1CDB3C9600DE38C8 /* Main.storyboard */; };
 		B5002CF01CDB3C9600DE38C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5002CEF1CDB3C9600DE38C8 /* Assets.xcassets */; };
-		B5002CF31CDB3C9600DE38C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5002CF11CDB3C9600DE38C8 /* LaunchScreen.storyboard */; };
 		B5002CFE1CDB3C9600DE38C8 /* JokeBookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5002CFD1CDB3C9600DE38C8 /* JokeBookTests.m */; };
 		B5002D091CDB3C9600DE38C8 /* JokeBookUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5002D081CDB3C9600DE38C8 /* JokeBookUITests.m */; };
 /* End PBXBuildFile section */
@@ -41,9 +39,7 @@
 		B5002CE71CDB3C9600DE38C8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B5002CE91CDB3C9600DE38C8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		B5002CEA1CDB3C9600DE38C8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		B5002CED1CDB3C9600DE38C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B5002CEF1CDB3C9600DE38C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B5002CF21CDB3C9600DE38C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B5002CF41CDB3C9600DE38C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5002CF91CDB3C9600DE38C8 /* JokeBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JokeBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5002CFD1CDB3C9600DE38C8 /* JokeBookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JokeBookTests.m; sourceTree = "<group>"; };
@@ -105,10 +101,6 @@
 				B5002CE71CDB3C9600DE38C8 /* AppDelegate.m */,
 				B5002CE91CDB3C9600DE38C8 /* ViewController.h */,
 				B5002CEA1CDB3C9600DE38C8 /* ViewController.m */,
-				B5002CEC1CDB3C9600DE38C8 /* Main.storyboard */,
-				B5002CEF1CDB3C9600DE38C8 /* Assets.xcassets */,
-				B5002CF11CDB3C9600DE38C8 /* LaunchScreen.storyboard */,
-				B5002CF41CDB3C9600DE38C8 /* Info.plist */,
 				B5002CE31CDB3C9600DE38C8 /* Supporting Files */,
 			);
 			path = JokeBook;
@@ -117,6 +109,8 @@
 		B5002CE31CDB3C9600DE38C8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B5002CEF1CDB3C9600DE38C8 /* Assets.xcassets */,
+				B5002CF41CDB3C9600DE38C8 /* Info.plist */,
 				B5002CE41CDB3C9600DE38C8 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -243,9 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5002CF31CDB3C9600DE38C8 /* LaunchScreen.storyboard in Resources */,
 				B5002CF01CDB3C9600DE38C8 /* Assets.xcassets in Resources */,
-				B5002CEE1CDB3C9600DE38C8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,25 +298,6 @@
 			targetProxy = B5002D051CDB3C9600DE38C8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		B5002CEC1CDB3C9600DE38C8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B5002CED1CDB3C9600DE38C8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		B5002CF11CDB3C9600DE38C8 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B5002CF21CDB3C9600DE38C8 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		B5002D0B1CDB3C9600DE38C8 /* Debug */ = {
@@ -411,6 +384,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = JokeBook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wang.JokeBook;
@@ -422,6 +396,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = JokeBook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wang.JokeBook;
@@ -496,6 +471,7 @@
 				B5002D0F1CDB3C9600DE38C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B5002D101CDB3C9600DE38C8 /* Build configuration list for PBXNativeTarget "JokeBookTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +480,7 @@
 				B5002D121CDB3C9600DE38C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B5002D131CDB3C9600DE38C8 /* Build configuration list for PBXNativeTarget "JokeBookUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +489,7 @@
 				B5002D151CDB3C9600DE38C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
